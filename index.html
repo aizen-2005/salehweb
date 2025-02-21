@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">SALEH</a>
+        <div class="hamburger" id="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+        <nav id="nav-menu">
+            <a href="#" class="active">Home</a>
+            <a href="#services">Services</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#experience">About Me</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+
+    <!-- Home Section -->
+    <section class="home">
+        <div class="home-img">
+            <img src="main.jpg" alt="Profile Image">
+        </div>
+
+        <div class="home-content">
+            <h1>Hi, It's <span>SALEH</span></h1>
+            <h3 class="typing-text">I'm a <span></span></h3>
+            <p>SALEH AYOUB BENABDERRAHMANE, A Computer Science student passionate about software development and problem-solving. Skilled in programming, data analysis, and system design. Knowledgeable in artificial intelligence and cybersecurity, with a strong ability to learn quickly. Seeking to gain practical experience and apply academic knowledge to real-world projects.</p>
+            
+            <div class="social-icons">
+                <a href="https://discord.com/aizen_2005"><i class="fa-brands fa-discord"></i></a>
+                
+                <a href="https://github.com/aizen-2005"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/salh_7k4?igsh=MWgxN3ViOGlmaDQ3bw=="><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100075048345595"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+
+            <a href="#contact" class="btn">Hire me</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="title">
+            <h2><span>Services</span></h2>
+        </div>
+        <div class="services-container">
+            <div class="service-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Development</h3>
+                <p>I specialize in creating responsive and user-friendly websites using the latest technologies.</p>
+            </div>
+            <div class="service-box">
+                <i class="fa-solid fa-palette"></i>
+                <h3>UI/UX Design</h3>
+                <p>Designing intuitive and visually appealing interfaces for web and mobile applications.</p>
+            </div>
+            <div class="service-box">
+                <i class="fa-solid fa-chart-line"></i>
+                <h3>Data Analysis</h3>
+                <p>Analyzing and interpreting complex data to provide actionable insights.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="title">
+            <h2><span>Skills</span></h2>
+        </div>
+        <div class="skills-container">
+            <div class="skill-box">
+                <h3>Programming Languages</h3>
+                <p>Python, Java, C, C++,Css</p>
+            </div>
+            <div class="skill-box">
+                <h3>Web Devloper</h3>
+                <p>HTML, CSS, JavaScript, React, PHP</p>
+            </div>
+            <div class="skill-box">
+                <h3>Cybersecurity</h3>
+                <p>I have limited experience in using cybersecurity tools and practices.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="title">
+            <h2><span>Education</span></h2>
+        </div>
+        <div class="education-container">
+            <div class="education-box">
+                <h3>Bachelor of Science in Computer Science</h3>
+                <p>University of Msila, 2024 - 2025</p>
+            </div>
+            <div class="education-box">
+                <h3>High School Diploma</h3>
+                <p>Mehidi Belkacem High School, 2020 - 2023</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="title">
+            <h2><span>About Me</span></h2>
+        </div>
+        <div class="experience-container">
+            <div class="experience-box">
+                <h3>About SALEH</h3>
+                <p>BENABDERRAHMANE</p>
+                <p>💻 I am a computer science student, passionate about technology but not about studying! 😅 My friends are a big part of my life, and I value them greatly. I am loyal to the core; I never betray, no matter what happens. I believe that loyalty is a principle, not just a choice. 🤝 I love helping others, as it gives me a true sense of satisfaction.
+
+                    I experienced love with a girl who left a mark on my heart, and I am now facing the challenge of forgetting her... but I know that time heals everything. ⏳</p>
+            </div>
+            <div class="experience-box">
+                <h3>About AYOUB</h3>
+                <p>BENABDERRAHMANE</p>
+                <p> 🔥 A person with keen observation, sharp intelligence, and a smart, provocative style! 😏 I love challenges, analysis, and deep thinking. I'm hard to outmaneuver, quick-witted, and skilled at picking up on details that others overlook. If you think you can surprise me... think again! 😉🚀</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="title">
+            <h2><span>Contact</span></h2>
+        </div>
+        <div class="contact-container">
+            <form action="https://formspree.io/f/mbldwepo" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <input type="tel" name="phone" placeholder="Your Phone Number" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
